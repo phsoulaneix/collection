@@ -3,9 +3,9 @@ collection
 1)les listes
 =====================
 On souhaite gérer un ensemble d'étudiants. Chaque étudiant sera défini par une classe Etudiant et devra présenter les informations suivantes:
-● un matricule;
-● un nom;
-● une liste de notes (de taille indéfinie).
+* un matricule;
+* un nom;
+* une liste de notes (de taille indéfinie).
 Une classe Note permettra de contenir pour chaque cours, l'intitulé du cours ainsi que la note obtenue. Les notes de chaque étudiant seront stockées dans une ArrayList.
 Une méthode addNote permettant d'ajouter une note à l'étudiant sera définie.
 
@@ -17,14 +17,14 @@ public interface Statisticable {
 public abstract float getValue();
 }
 Tout objet « statisticable » doit donc avoir une certaine valeur; pour un Etudiant, on choisit de prendre la moyenne de ses notes comme valeur de l'Etudiant. La classe Stats sera ensuite utilisée et donnera  pour :
-● chaque étudiant:
-○ sa moyenne;
-○ sa meilleure note;
-○ sa moins bonne note;
-● chaque groupe d'étudiants:
-○ la moyenne du groupe;
-○ le meilleur étudiant;
-○ le moins bon étudiant.
+* chaque étudiant:
+    * sa moyenne;
+    * sa meilleure note;
+    * sa moins bonne note;
+* chaque groupe d'étudiants:
+    * la moyenne du groupe;
+    * le meilleur étudiant;
+    * le moins bon étudiant.
 
 
 3) Le trie
